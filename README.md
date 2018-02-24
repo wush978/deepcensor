@@ -12,3 +12,4 @@ cd exp
 python train.py --config linear-normal-no-ipinyou.exp.data-201310_1e-4/01.json
 ```
 
+Each `.json` file under the folder `exp` is corresponding to one experiment in the paper.
