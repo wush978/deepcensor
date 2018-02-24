@@ -1,6 +1,6 @@
 # Reproducible Example
 
-Please install docker and use the follownig commands to re-run the experiments
+Please install [docker](https://docs.docker.com/install/) and use the following commands to re-run the experiments
 
 ```sh
 docker run -it wush978/deepcensor:latest /bin/bash
