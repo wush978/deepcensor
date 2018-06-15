@@ -1,13 +1,12 @@
 .SECONDEXPANSION:
 
+all : .201306.done .201310.done
 
-BIDS_2ND=$(shell find ../ipinyou.contest.dataset/training2nd | grep bid | Rscript get.target.R)
-BIDS_3RD=$(shell find ../ipinyou.contest.dataset/training3rd | grep bid | Rscript get.target.R)
+.201310.done :
+	Rscript season.join.R 201310
+	touch $@
 
-
-all : $(BIDS_3RD) $(BIDS_2ND)
-
-%.Rds : $$(shell find ../ipinyou.contest.dataset/* | grep %)
-	Rscript join.R $@
-
+.201306.done :
+	Rscript season.join.R 201306
+	touch $@
 
