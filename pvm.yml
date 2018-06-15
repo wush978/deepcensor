@@ -15,6 +15,7 @@ __version__: 0.2
   magrittr: 1.5
   whisker: 0.3-2
   rbenchmark: 1.0.0
+  sparsepp: 0.2.0
   praise: 1.0.0
   LiblineaR: 1.94-2
   plogr: 0.1-1
@@ -36,20 +37,21 @@ __version__: 0.2
   backports: 1.0.4
   RColorBrewer: 1.1-2
   base64enc: 0.1-3
+  futile.options: 1.0.1
   truncnorm: 1.0-7
   packrat: 0.4.8-1
   gsl: 1.9-10.3
   mime: 0.5
   snow: 0.4-2
-  RcppParallel: 4.3.20
+  RcppParallel: 4.4.0
   formatR: 1.4
   BsMD: 2013.0718
   pkgconfig: 2.0.1
   registry: 0.3
   numDeriv: 2016.8-1
-  digest: 0.6.11
+  digest: 0.6.15
   curl: 2.4
-  iterators: 1.0.8
+  iterators: 1.0.9
   bit: 1.1-12
   caTools: 1.17.1
 3:
@@ -60,8 +62,7 @@ __version__: 0.2
   gtable: 0.2.0
   checkmate: 1.8.2
   gridBase: 0.4-7
-  foreach: 1.4.3
-  Rmpi: 0.6-6
+  foreach: 1.4.4
   futile.logger: 1.4.3
   memoise: 1.0.0
   lbfgsb3: 2015-2.13
@@ -83,7 +84,7 @@ __version__: 0.2
   boot: 1.3-20
   estimability: 1.2
   lattice: 0.20-35
-  stringi: 1.1.2
+  stringi: 1.2.3
 5:
   colorspace: 1.3-2
   ascii: 2.1
@@ -94,11 +95,11 @@ __version__: 0.2
   timeDate: 3012.100
   inline: 0.3.14
   logging: 0.7-103
-  Rcpp: 0.12.14
+  Rcpp: 0.12.17
   RCurl: 1.95-4.8
   zoo: 1.7-14
   sfsmisc: 1.1-0
-  data.table: 1.10.4
+  data.table: 1.11.4
   SparseM: 1.74
   mvtnorm: 1.0-5
   hms: 0.3
@@ -131,17 +132,17 @@ __version__: 0.2
   plyr: 1.8.4
   timeSeries: 3022.101.2
   lmtest: 0.9-34
+  mlapi: 0.1.0
   evaluate: 0.10
   testthat: 0.11.0
   tibble: 1.3.4
   htmltools: 0.3.5
-  mgcv: 1.8-22
+  mgcv: 1.8-20
   dlib: 1.0
   xml2: 1.1.1
   pkgmaker: 0.22
   googleVis: 0.6.2
   bindrcpp: 0.2
-  rPython: 0.0-6
   desc: 1.1.0
   httr: 1.1.0
   survival: 2.41-3
@@ -149,7 +150,7 @@ __version__: 0.2
   glmnet: 2.0-10
   class: 7.3-14
   HsTrust: github::repo=wush978/HsTrust@24b5d7ad141376b094ebb0275216f97e0164c589
-  irlba: 2.1.2
+  irlba: 2.3.2
 7:
   htmlwidgets: 0.8
   knitr: 1.15.1
@@ -158,6 +159,7 @@ __version__: 0.2
   TH.data: 1.0-8
   scales: 0.4.1
   QRM: 0.4-13
+  text2vec: url::url=https://cloud.r-project.org//src/contrib/Archive/text2vec/text2vec_0.4.0.tar.gz
   reshape2: 1.4.2
   purrr: 0.2.4
   readr: 1.1.1
