@@ -159,7 +159,7 @@ __version__: 0.2
   TH.data: 1.0-8
   scales: 0.4.1
   QRM: 0.4-13
-  text2vec: url::url=https://cloud.r-project.org//src/contrib/Archive/text2vec/text2vec_0.4.0.tar.gz
+  text2vec: 0.5.0
   reshape2: 1.4.2
   purrr: 0.2.4
   readr: 1.1.1
