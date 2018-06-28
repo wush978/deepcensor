@@ -1,5 +1,5 @@
 
-all : 
+all : .progress/ipinyou.exp.data
 
 .progress/ipinyou.contest.dataset : ipinyou.contest.dataset.zip
 	-(ls ipinyou.contest.dataset && rm -rf ipinyou.contest.dataset) > /dev/null 2>&1
