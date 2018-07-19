@@ -5,6 +5,9 @@ train.obj.done : parseYOYI.cpp
 	Rscript train.obj.R
 	touch $@
 
+f5files.done : train.obj.done
+	Rscript filter.R 1e-4 && Rscript filter.R 1e-3 && touch $@
+
 test.obj.Rds : ../yoyi/test.yzx.txt.gz parseYOYI.cpp
 	Rscript -e "Rcpp::sourceCpp('parseYOYI.cpp');saveRDS(parseYOYI(readLines(gzfile('$<'))), '$@')"
 
