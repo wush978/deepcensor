@@ -1,1 +1,5 @@
+name: Reproducible Examples of Deep Censored Learning of the Winning Price in the Real Time Bidding
+description: Introduce the steps to reproduce examples in the paper: Deep Censored Learning of the Winning Price in the Real Time Bidding
 theme: jekyll-theme-slate
+footer-links:
+   github: wush978/deepcensor
