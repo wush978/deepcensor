@@ -1,4 +1,4 @@
-This site introduces the steps to reproduce the experiments of our paper: [Deep Censored Learning of the Winning Price in the Real Time Bidding](https://drive.google.com/file/d/1pjnF_y9LnjAlQNTq1XICKJUwmRg_I_tD/view?usp=sharing)
+This site introduces the steps to reproduce experiments of our paper: [Deep Censored Learning of the Winning Price in the Real Time Bidding](https://drive.google.com/file/d/1pjnF_y9LnjAlQNTq1XICKJUwmRg_I_tD/view?usp=sharing)
 
 Please install [docker](https://docs.docker.com/install/) and use the following commands to re-run the experiments
 
