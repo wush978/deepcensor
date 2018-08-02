@@ -3,3 +3,5 @@ description: Introduce the steps to reproduce experienments in the paper: Deep C
 theme: jekyll-theme-slate
 footer-links:
    github: wush978/deepcensor
+plugins:
+   - jekyll-seo-tag
